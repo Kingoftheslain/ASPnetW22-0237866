@@ -3,6 +3,6 @@
 This folder will contain all of the contents of my First assignment for ASP
 
 List of all commands to be used in the Terminal are listed below:
-dotnet new webapp -o MichaelsPathfinderRazorPages 
+dotnet new webapp -o MichaelsPathfinderRazorPages --no-https
 code -r MichaelsPathfinderRazorPages
 
