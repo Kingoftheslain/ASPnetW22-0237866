@@ -165,3 +165,8 @@ C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michae
 C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelsPathfinderRazorPages\obj\Debug\net5.0\ref\MichaelsPathFinderRazorPages.dll
 C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelsPathfinderRazorPages\obj\Debug\net5.0\MichaelsPathFinderRazorPages.pdb
 C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelsPathfinderRazorPages\obj\Debug\net5.0\MichaelsPathFinderRazorPages.genruntimeconfig.cache
+C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelsPathfinderRazorPages\obj\Debug\net5.0\Razor\Pages\Feats\Create.cshtml.g.cs
+C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelsPathfinderRazorPages\obj\Debug\net5.0\Razor\Pages\Feats\Delete.cshtml.g.cs
+C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelsPathfinderRazorPages\obj\Debug\net5.0\Razor\Pages\Feats\Details.cshtml.g.cs
+C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelsPathfinderRazorPages\obj\Debug\net5.0\Razor\Pages\Feats\Edit.cshtml.g.cs
+C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelsPathfinderRazorPages\obj\Debug\net5.0\Razor\Pages\Feats\Index.cshtml.g.cs
