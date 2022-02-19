@@ -9,7 +9,7 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: #68096b;
 }
 
 .btn-primary {
@@ -22,6 +22,46 @@ a {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+/* H1 Styles
+-------------------------------------------------- */
+
+h1.display-4{
+  color:#3e4ee6;
+}
+
+/* Paragraph Styles
+-------------------------------------------------- */
+
+p#introPara {
+  padding-top: 10px;
+  font-style: 'Times New Roman';
+  width: 80%;
+  float: left;
+}
+
+p#Backstory {
+  font-style: 'Times New Roman';
+}
+
+/* Image Styles
+-------------------------------------------------- */
+
+img {
+  width: 180px;
+  height: 180px;
+}
+
+/* Aside Styles
+-------------------------------------------------- */
+
+aside{
+  padding-left: 20px;
+  position: relative;
+  float: right;
+  width: 20%;
+  text-decoration: nowrap;
 }
 
 /* Sticky footer styles
@@ -61,6 +101,8 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: rgb(80, 80, 80);
+  color: ivory;
 }
 .footer {
   position: absolute;
