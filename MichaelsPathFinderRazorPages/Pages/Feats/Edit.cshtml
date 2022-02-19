@@ -1,0 +1,50 @@
+@page
+@model MichaelsPathFinderRazorPages.Pages_Feats.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Feats</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Feats.ID" />
+            <div class="form-group">
+                <label asp-for="Feats.featName" class="control-label"></label>
+                <input asp-for="Feats.featName" class="form-control" />
+                <span asp-validation-for="Feats.featName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Feats.FeatLearnedDate" class="control-label"></label>
+                <input asp-for="Feats.FeatLearnedDate" class="form-control" />
+                <span asp-validation-for="Feats.FeatLearnedDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Feats.shortDescription" class="control-label"></label>
+                <input asp-for="Feats.shortDescription" class="form-control" />
+                <span asp-validation-for="Feats.shortDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Feats.description" class="control-label"></label>
+                <input asp-for="Feats.description" class="form-control" />
+                <span asp-validation-for="Feats.description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
