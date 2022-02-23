@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\MichaelsPathFinderRazorPages.csproj",
+  "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\MichaelsPathFinderRazorPages.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,63 +15619,63 @@
   "RootNamespace": "MichaelsPathFinderRazorPages",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Feats\\Delete.cshtml",
-      "TargetPath": "Pages\\Feats\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Feats\\Index.cshtml",
-      "TargetPath": "Pages\\Feats\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Feats\\Create.cshtml",
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Feats\\Create.cshtml",
       "TargetPath": "Pages\\Feats\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Feats\\Details.cshtml",
-      "TargetPath": "Pages\\Feats\\Details.cshtml",
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Feats\\Edit.cshtml",
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Feats\\Edit.cshtml",
       "TargetPath": "Pages\\Feats\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\Pages\\Index.cshtml",
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Feats\\Delete.cshtml",
+      "TargetPath": "Pages\\Feats\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Feats\\Details.cshtml",
+      "TargetPath": "Pages\\Feats\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\Pages\\Feats\\Index.cshtml",
+      "TargetPath": "Pages\\Feats\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

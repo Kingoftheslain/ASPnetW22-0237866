@@ -9,7 +9,7 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #68096b;
+  color: #3b48f7;
 }
 
 .btn-primary {
@@ -63,6 +63,14 @@ aside{
   width: 20%;
   text-decoration: nowrap;
 }
+
+/* Table Styles
+-------------------------------------------------- */
+
+th { color:Violet; }
+
+td { color: ivory; }
+
 
 /* Sticky footer styles
 -------------------------------------------------- */

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Q6KsDx7nqg2JwxvCDpNvuMQy5Jg1WQ9FsSEqmIVgWeoXr664aNBt4elKlxpvUydJnUiw92obtrCDzitQEBO1w==",
+  "dgSpecHash": "ql4VPOEdwUU2Vjbn0UMZGzo0JXlIMT7oMxLXtOpj87KTthS/51NonvZnDgtZfmdd4W11UfE0/Ht3s1EQUD5WXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\MichaelsPathFinderRazorPages.csproj",
+  "projectFilePath": "C:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\MichaelsPathFinderRazorPages.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michael\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Michael\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

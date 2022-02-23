@@ -7439,11 +7439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\MichaelsPathFinderRazorPages.csproj",
+      "projectUniqueName": "C:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\MichaelsPathFinderRazorPages.csproj",
       "projectName": "MichaelsPathFinderRazorPages",
-      "projectPath": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\MichaelsPathFinderRazorPages.csproj",
+      "projectPath": "C:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\MichaelsPathFinderRazorPages.csproj",
       "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelsPathfinderRazorPages\\obj\\",
+      "outputPath": "C:\\Users\\Michael\\Desktop\\College Programs & Assignments\\Winter 2022\\ASP.Net\\GitHub\\MichaelsPathFinderRazorPages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7507,7 +7507,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
