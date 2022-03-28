@@ -56,3 +56,5 @@ C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michae
 C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\obj\Debug\net5.0\MichaelMacNeillGroceryApp.pdb
 C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\obj\Debug\net5.0\MichaelMacNeillGroceryApp.genruntimeconfig.cache
 C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\obj\Debug\net5.0\MichaelMacNeillGroceryApp.csproj.CopyComplete
+C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\GroceryStore.razor.g.cs
+C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\obj\Debug\net5.0\Razor\Pages\GroceryStore.razor.g.cs
