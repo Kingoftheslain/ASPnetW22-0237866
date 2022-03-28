@@ -1,3 +1,3 @@
 # ASPnetW22-Michael_MacNeill
- 
-This folder will contain all of my course content throughout the semester
+# Assignment-2
+This branch contains the contents of my 2nd assignment
