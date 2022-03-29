@@ -11,11 +11,17 @@
     <label for="foodType">Type of Food: </label>
     <InputText id="type" @bind-Value="FoodForm.foodType" /> <br>
 
+    <label for="quantity">Amount of Stock: </label>
+    <InputNumber id="quantity" @bind-Value="FoodForm.quantity" /> <br>
+
+    <label for="identity">Foods ID #:</label>
+    <InputNumber id="identity #" @bind-Value="FoodForm.idNum" /> <br>
+
     <label for="aisle">Aisle #: </label>
-    <InputSelect id="aisle" @bind-Value="StoreAisle.aisleNum">
-        <option value="Candy">Candy</option>
-        <option value="Meats">Meats</option>
-        <option value="Breads">Breads</option>
+    <InputSelect id="aisle" @bind-Value="selectedAisle">
+        <option value=1>Candy</option>
+        <option value=2>Meats</option>
+        <option value=3>Breads</option>
     </InputSelect> <br>
 
     <input type="submit" value="Submit" />
@@ -23,6 +29,7 @@
 
 @code {
     FoodItem FoodForm = new FoodItem();
+    public int selectedAisle;
 }
 
 <br>
@@ -31,46 +38,59 @@
 
 <h2>Search For Items Below:</h2>
 
+<table>
+<thead>
+    <th>Aisle</th>  
+    
+    <th>Item</th> <th>Type of Food</th> <th>Amount of food</th> <th>Order Ammount</th>
+
+    <th>Item</th> <th>Type of Food</th> <th>Amount of food</th> <th>Order Ammount</th>
+
+    <th>Item</th> <th>Type of Food</th> <th>Amount of food</th> <th>Order Ammount</th>
+</thead>
+
 @foreach (var GroceryAisles in StoreAisle)
 {
-       
-    @GroceryAisles.aisleNum
+    <tr>
+        <th>@GroceryAisles.aisleName</th>
 
-    @foreach (var foodItem in FoodForm)
+    @foreach (var foodItem in GroceryAisles.listofFoodItem)
     {
-        
-    @foodItem.Quantity
-    <button @onclick="FoodForm.quanIncrease">+</button>
-    <button @onclick="FoodForm.quanDecrease">-</button>
-    @foodItem.itemName
-    @foodItem.foodType
-    @foodItem.idNums
+        <td>@foodItem.itemName</td>
+        <td>@foodItem.foodType</td>
+        <td>@foodItem.idNum</td>
+        <td>
+            <button @onclick="foodItem.quanIncrease">+</button>
+            @foodItem.quantity
+            <button @onclick="foodItem.quanDecrease">-</button>
+        </td>
     }
-
+    </tr>
 }
+</table>
 
-    
 
 @code {
     List<GroceryIsle> StoreAisle = new List<GroceryIsle>();
-    
 
-        public void FoodFiller(){
+
+    public void FoodFiller()
+    {
 
         GroceryIsle candyAisle = new GroceryIsle();
         candyAisle.aisleName = "Candy";
         candyAisle.aisleNum = 1;
 
         candyAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 1, quantity = 8, itemName = "Snickers", foodType = "Chocolate"}
+        new FoodItem { idNum = 1, quantity = 8, itemName = "Snickers", foodType = "Chocolate" }
         );
 
         candyAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 2, quantity = 12, itemName = "Skittles", foodType = "Hard Candy"}
+        new FoodItem { idNum = 2, quantity = 12, itemName = "Skittles", foodType = "Hard Candy" }
         );
 
         candyAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 3, quantity = 4, itemName = "Twix", foodType = "Chocolate"}
+        new FoodItem { idNum = 3, quantity = 4, itemName = "Twix", foodType = "Chocolate" }
         );
 
         StoreAisle.Add(candyAisle);
@@ -81,15 +101,15 @@
         meatsAisle.aisleNum = 2;
 
         meatsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 4, quantity = 5, itemName = "Steak", foodType = "Beef"}
+        new FoodItem { idNum = 4, quantity = 5, itemName = "Steak", foodType = "Beef" }
         );
 
         meatsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 5, quantity = 11, itemName = "Chicken Breasts", foodType = "Poultry"}
+        new FoodItem { idNum = 5, quantity = 11, itemName = "Chicken Breasts", foodType = "Poultry" }
         );
 
         meatsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 6, quantity = 9, itemName = "Pork Roast", foodType = "Pork"}
+        new FoodItem { idNum = 6, quantity = 9, itemName = "Pork Roast", foodType = "Pork" }
         );
 
         StoreAisle.Add(meatsAisle);
@@ -100,18 +120,21 @@
         breadsAisle.aisleNum = 3;
 
         breadsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 7, quantity = 10, itemName = "Garlic Bread", foodType = "pre-packaged"}
+        new FoodItem { idNum = 7, quantity = 10, itemName = "Garlic Bread", foodType = "pre-packaged" }
         );
 
         breadsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 8, quantity = 16, itemName = "Whole Wheat", foodType = "Bread Loaf"}
+        new FoodItem { idNum = 8, quantity = 16, itemName = "Whole Wheat", foodType = "Bread Loaf" }
         );
 
         breadsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 9, quantity = 2, itemName = "Croisant", foodType = "Baked Good"}
+        new FoodItem { idNum = 9, quantity = 2, itemName = "Croisant", foodType = "Baked Good" }
         );
 
         StoreAisle.Add(breadsAisle);
-
-        }
+    }
+    protected override void OnInitialized()
+    {
+        FoodFiller();
+    }
 }

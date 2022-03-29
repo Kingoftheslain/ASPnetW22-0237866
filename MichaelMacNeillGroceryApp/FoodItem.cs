@@ -1,6 +1,3 @@
-
-
-
 public class FoodItem {
     public int idNum { get; set;} 
     public int quantity { get; set;} 

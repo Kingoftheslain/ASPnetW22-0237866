@@ -91,35 +91,37 @@ using MichaelMacNeillGroceryApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 24 "C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\Pages\GroceryStore.razor"
+#line 30 "C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\Pages\GroceryStore.razor"
        
     FoodItem FoodForm = new FoodItem();
+    public int selectedAisle;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 54 "C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\Pages\GroceryStore.razor"
+#line 73 "C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\Pages\GroceryStore.razor"
        
     List<GroceryIsle> StoreAisle = new List<GroceryIsle>();
-    
 
-        public void FoodFiller(){
+
+    public void FoodFiller()
+    {
 
         GroceryIsle candyAisle = new GroceryIsle();
         candyAisle.aisleName = "Candy";
         candyAisle.aisleNum = 1;
 
         candyAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 1, quantity = 8, itemName = "Snickers", foodType = "Chocolate"}
+        new FoodItem { idNum = 1, quantity = 8, itemName = "Snickers", foodType = "Chocolate" }
         );
 
         candyAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 2, quantity = 12, itemName = "Skittles", foodType = "Hard Candy"}
+        new FoodItem { idNum = 2, quantity = 12, itemName = "Skittles", foodType = "Hard Candy" }
         );
 
         candyAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 3, quantity = 4, itemName = "Twix", foodType = "Chocolate"}
+        new FoodItem { idNum = 3, quantity = 4, itemName = "Twix", foodType = "Chocolate" }
         );
 
         StoreAisle.Add(candyAisle);
@@ -130,15 +132,15 @@ using MichaelMacNeillGroceryApp.Shared;
         meatsAisle.aisleNum = 2;
 
         meatsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 4, quantity = 5, itemName = "Steak", foodType = "Beef"}
+        new FoodItem { idNum = 4, quantity = 5, itemName = "Steak", foodType = "Beef" }
         );
 
         meatsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 5, quantity = 11, itemName = "Chicken Breasts", foodType = "Poultry"}
+        new FoodItem { idNum = 5, quantity = 11, itemName = "Chicken Breasts", foodType = "Poultry" }
         );
 
         meatsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 6, quantity = 9, itemName = "Pork Roast", foodType = "Pork"}
+        new FoodItem { idNum = 6, quantity = 9, itemName = "Pork Roast", foodType = "Pork" }
         );
 
         StoreAisle.Add(meatsAisle);
@@ -149,20 +151,23 @@ using MichaelMacNeillGroceryApp.Shared;
         breadsAisle.aisleNum = 3;
 
         breadsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 7, quantity = 10, itemName = "Garlic Bread", foodType = "pre-packaged"}
+        new FoodItem { idNum = 7, quantity = 10, itemName = "Garlic Bread", foodType = "pre-packaged" }
         );
 
         breadsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 8, quantity = 16, itemName = "Whole Wheat", foodType = "Bread Loaf"}
+        new FoodItem { idNum = 8, quantity = 16, itemName = "Whole Wheat", foodType = "Bread Loaf" }
         );
 
         breadsAisle.listofFoodItem.Add(
-            new FoodItem { idNum = 9, quantity = 2, itemName = "Croisant", foodType = "Baked Good"}
+        new FoodItem { idNum = 9, quantity = 2, itemName = "Croisant", foodType = "Baked Good" }
         );
 
         StoreAisle.Add(breadsAisle);
-
-        }
+    }
+    protected override void OnInitialized()
+    {
+        FoodFiller();
+    }
 
 #line default
 #line hidden
