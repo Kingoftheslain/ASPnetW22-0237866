@@ -12,7 +12,6 @@ public void quanIncrease() {
     if (quantity < 20)
         quantity++;
 }
-
 public void quanDecrease() {
     if (quantity > 0)
         quantity--;

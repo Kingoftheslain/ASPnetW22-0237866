@@ -82,6 +82,7 @@ using MichaelMacNeillGroceryApp.Shared;
 #line default
 #line hidden
 #nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/GroceryStore")]
     public partial class GroceryStore : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -89,6 +90,22 @@ using MichaelMacNeillGroceryApp.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 24 "C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\Pages\GroceryStore.razor"
+       
+    FoodItem FoodForm = new FoodItem();
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 41 "C:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillGroceryApp\Pages\GroceryStore.razor"
+       
+    GroceryIsle StoreAisle = new GroceryIsle();
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
