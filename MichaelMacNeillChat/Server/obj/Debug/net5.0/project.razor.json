@@ -3960,6 +3960,39 @@
         }
       },
       {
+        "HashCode": -1259333274,
+        "Kind": "Components.Component",
+        "Name": "MichaelMacNeillChat.Client.Pages.Chat",
+        "AssemblyName": "MichaelMacNeillChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Chat"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MichaelMacNeillChat.Client.Pages.Chat"
+        }
+      },
+      {
+        "HashCode": 1204533924,
+        "Kind": "Components.Component",
+        "Name": "MichaelMacNeillChat.Client.Pages.Chat",
+        "AssemblyName": "MichaelMacNeillChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MichaelMacNeillChat.Client.Pages.Chat"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MichaelMacNeillChat.Client.Pages.Chat",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 2101041670,
         "Kind": "Components.Component",
         "Name": "MichaelMacNeillChat.Client.Pages.Counter",

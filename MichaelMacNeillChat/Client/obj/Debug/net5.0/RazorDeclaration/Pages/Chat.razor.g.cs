@@ -89,7 +89,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/chat")]
     public partial class Chat : Microsoft.AspNetCore.Components.ComponentBase, IAsyncDisposable
     {
         #pragma warning disable 1998
@@ -104,6 +104,7 @@ using Microsoft.AspNetCore.SignalR.Client;
     private List<string> messages = new List<string>();
     private string userInput;
     private string messageInput;
+    private List<string> someonesTyping = new List<string>();
 
     protected override async Task OnInitializedAsync()
     {
@@ -111,10 +112,34 @@ using Microsoft.AspNetCore.SignalR.Client;
             .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
             .Build();
 
-        hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        hubConnection.On<string, string>("ReceiveMessage", (name, message) =>
+            {
+                var msg = $"{name}: {message} {@DateTime.Now.ToString("h:mm tt")}";
+                messages.Add(msg);
+                messageInput = string.Empty;
+                StateHasChanged();
+            });
+
+        hubConnection.On<string, string>("someonesTyping", (name, msg) =>
         {
-            var encodedMsg = $"{name}: {message}";
-            messages.Add(encodedMsg);
+            var typingMessage = $"{name} {msg}";
+            if (!someonesTyping.Contains(typingMessage) && userInput.Length > 0)
+            {
+                someonesTyping.Add(typingMessage);
+                StateHasChanged();
+            }
+            StateHasChanged();
+        });
+
+        hubConnection.On<string>("noonesTyping", (name) =>
+        {
+            var typingMessage = $"{name} is typing...";
+            if (someonesTyping.Contains(typingMessage))
+            {
+
+            someonesTyping.Remove(typingMessage);
+                StateHasChanged();
+            }
             StateHasChanged();
         });
 
@@ -122,7 +147,13 @@ using Microsoft.AspNetCore.SignalR.Client;
     }
 
     async Task Send() =>
-        await hubConnection.SendAsync("SendMessage", nameInput, messageInput);
+        await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+
+    async Task someoneTyping() =>
+    await hubConnection.SendAsync("someonesTyping", userInput, "is typing...");
+
+    async Task noonesTyping() =>
+    await hubConnection.SendAsync("noonesTyping", userInput);
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;

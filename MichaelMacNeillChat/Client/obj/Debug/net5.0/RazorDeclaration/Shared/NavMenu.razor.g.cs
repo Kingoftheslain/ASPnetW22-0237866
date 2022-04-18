@@ -90,7 +90,7 @@ using MichaelMacNeillChat.Client.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "c:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillChat\Client\Shared\NavMenu.razor"
+#line 33 "c:\Users\Michael\Desktop\School Assignments\Winter 2022\Asp net\ASPnetW22-Michael_MacNeill\MichaelMacNeillChat\Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
