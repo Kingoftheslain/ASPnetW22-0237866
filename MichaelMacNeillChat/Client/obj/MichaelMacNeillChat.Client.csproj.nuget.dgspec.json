@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Client\\MichaelMacNeillChat.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Client\\MichaelMacNeillChat.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Client\\MichaelMacNeillChat.Client.csproj",
+        "projectName": "MichaelMacNeillChat.Client",
+        "projectPath": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Client\\MichaelMacNeillChat.Client.csproj",
+        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Shared\\MichaelMacNeillChat.Shared.csproj": {
+                "projectPath": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Shared\\MichaelMacNeillChat.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.10, 5.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Shared\\MichaelMacNeillChat.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Shared\\MichaelMacNeillChat.Shared.csproj",
+        "projectName": "MichaelMacNeillChat.Shared",
+        "projectPath": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Shared\\MichaelMacNeillChat.Shared.csproj",
+        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Michael\\Desktop\\School Assignments\\Winter 2022\\Asp net\\ASPnetW22-Michael_MacNeill\\MichaelMacNeillChat\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
