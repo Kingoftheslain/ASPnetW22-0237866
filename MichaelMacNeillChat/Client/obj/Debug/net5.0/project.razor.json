@@ -107,39 +107,6 @@
         }
       },
       {
-        "HashCode": 111356201,
-        "Kind": "Components.Component",
-        "Name": "MichaelMacNeillChat.Client.Pages.Index",
-        "AssemblyName": "MichaelMacNeillChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MichaelMacNeillChat.Client.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1645819542,
-        "Kind": "Components.Component",
-        "Name": "MichaelMacNeillChat.Client.Pages.Index",
-        "AssemblyName": "MichaelMacNeillChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MichaelMacNeillChat.Client.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MichaelMacNeillChat.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1259333274,
         "Kind": "Components.Component",
         "Name": "MichaelMacNeillChat.Client.Pages.Chat",
@@ -169,6 +136,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MichaelMacNeillChat.Client.Pages.Chat",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 111356201,
+        "Kind": "Components.Component",
+        "Name": "MichaelMacNeillChat.Client.Pages.Index",
+        "AssemblyName": "MichaelMacNeillChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MichaelMacNeillChat.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1645819542,
+        "Kind": "Components.Component",
+        "Name": "MichaelMacNeillChat.Client.Pages.Index",
+        "AssemblyName": "MichaelMacNeillChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MichaelMacNeillChat.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MichaelMacNeillChat.Client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
